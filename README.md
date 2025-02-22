@@ -1,1 +1,1 @@
-# gnn_superconductors
+# Predict quantum quenches with GNN
