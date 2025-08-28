@@ -6,6 +6,8 @@ This project focuses on the critical task of detecting "quenches"—a phenomenon
 
 The input data consists of sequences of heat maps, with each sequence containing 24 hourly temperature measurements of the cable grid. Although the cables are individually cooled, there is still a degree of thermal diffusion across the grid. A quench event, triggered by a sudden temperature increase in one or more cables, can propagate through this grid. This project aims to establish a reliable connection between the thermal data and the occurrence of these quench events.
 
+Unfortunately I cannot share the ``data.json`` file containing the data used for the training. I do not have the permission to share them. However I hope you can find the notebook interesting as well.
+
 ## 2. Task and Objective
 
 The primary goal of this project is to build a model that can accurately distinguish between sequences with at least one quench event (labeled as class 1) and those with no quenches (class 0).
